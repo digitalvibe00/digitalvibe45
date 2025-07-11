@@ -1,0 +1,10 @@
+<div class="blog-card">
+  <h2>📷 My Journey in One Picture</h2>
+  <p><em>Posted on July 12, 2025</em></p>
+  <img src="rk.jpg" alt="Raunak's Image" style="width: 100%; border-radius: 12px; margin: 15px 0;">
+  <p>
+    This image represents where it all started. From learning HTML to publishing my first blog, this moment means a lot to me.  
+    <br><br>
+    Thank you to everyone who’s been a part of my journey — this is just the beginning 🚀
+  </p>
+</div>
