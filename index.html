@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Vibe Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      color: white;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #4e54c8;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      color: #222;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .blog-card {
+      background: white;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      padding: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-card h2 {
+      color: #4e54c8;
+      margin-bottom: 10px;
+    }
+
+    .blog-card p {
+      line-height: 1.6;
+    }
+
+    img.blog-image {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #2d2d2d;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    form input, form textarea {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #4e54c8;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #3e42a4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Digital Vibe</h1>
+    <p>Where curiosity meets creativity — by Raunak</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <img src="rk.jpg" alt="Blog Banner" class="blog-image" />
+
+    <div class="blog-card">
+      <h2>🌐 The Future is Digital — Are We Ready?</h2>
+      <p><em>Posted on July 11, 2025</em></p>
+      <p>
+        We live in a world where technology isn’t just a tool — it's an experience. From AI that writes poetry to devices that understand our voice, we are surrounded by innovation.  
+        <br/><br/>
+        But here's the real question: are we mentally prepared for what’s next? The <strong>Digital Mindset</strong> isn’t just about using tech — it’s about thinking forward, adapting fast, and staying curious.
+      </p>
+    </div>
+
+    <div class="blog-card">
+      <h2>🧠 Why “Digital Mindset” Matters Today</h2>
+      <p><em>Posted on July 10, 2025</em></p>
+      <p>
+        A digital mindset is all about embracing change and being comfortable with technology. In today’s fast-paced world, it's not just engineers or coders who need it — everyone does. If you want to thrive, you need to think digitally, work smart, and stay sharp.
+      </p>
+    </div>
+
+    <div class="blog-card">
+      <h2>📱 Instagram Growth Tips for Creators</h2>
+      <p><em>Posted on July 9, 2025</em></p>
+      <p>
+        Growing on Instagram isn’t about being perfect — it’s about being real. Be consistent, provide value, and interact with your audience. Whether you're into tech, lifestyle, or memes — your content has a place. Just stay true to yourself.
+      </p>
+    </div>
+
+    <div class="blog-card">
+      <h2>📬 Contact Me</h2>
+      <form action="https://formsubmit.co/raunakblog@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>📧 Email: raunakthakur172@gmail.com | 📸 Instagram: <a href="https://instagram.com/raunak77_" style="color: #8f94fb; text-decoration: none;">@raunak77_</a></p>
+    <p>
+      👁 Visitors: <img src="https://visitor-badge.laobi.icu/badge?page_id=digitalvibe00.digitalvibe34" alt="Visitor Counter">
+    </p>
+    <p>&copy; 2025 Digital Vibe | Made with ❤ by Raunak</p>
+  </footer>
+
+</body>
+</html>
